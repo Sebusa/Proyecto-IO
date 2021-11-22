@@ -10,5 +10,9 @@ El programa simplemente consta de la aplicación de estos algoritmos a un proble
 
 Simplemente hay que darle **run** al programa ***main.py*** y listo, tendrás una interfaz que te indique las optionses disponibles.
 
+```python
+python3 main.py
+```
+
 ## Si tienes alguna duda o quieres hacer algún aporte escríbeme al correo:  ***s.buitrago2@utp.edu.co***
 ###### Este proyecto fue creado solo con fines académicos.

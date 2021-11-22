@@ -11,7 +11,7 @@ def start():
         print("2) Algoritmo simplex (Método de la gran M)")
         print("x) Salir del programa.")
 
-        options = input("¿Qué algoritmo desea implementar?: ")
+        options = input("¿Qué opción deseas?: ")
 
         if options == "x" or options == "X": break
         else:
