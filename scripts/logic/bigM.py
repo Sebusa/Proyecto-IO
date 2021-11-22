@@ -1,9 +1,11 @@
 import math, copy
 
+#para mostrar los caracteres unicode
 import io,sys
 sys.stdout = io.open(sys.stdout.fileno(), 'w', encoding='utf8')
+#print(sys.stdout.encoding)
 
-def corre_simplex(A,b,c,ine,prob,fr): #Corre simplex llama a todas rutinas
+def simplex(A,b,c,ine,prob,fr): #Corre simplex llama a todas rutinas
     verproblema(A,b,c,ine,prob)
     M=100
     (A,var,bas,pos)=tableu(A,b,c, ine, prob,M) # M al final

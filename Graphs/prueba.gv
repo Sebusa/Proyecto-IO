@@ -4,20 +4,8 @@ graph prueba {
 	B
 	C
 	D
-	E
-	F
-	G
-	H
 	A -- B [label=2]
-	A -- F [label=1]
-	B -- C [label=2]
-	B -- D [label=2]
-	B -- E [label=4]
-	C -- E [label=3]
-	C -- H [label=1]
-	D -- E [label=4]
-	D -- F [label=3]
-	E -- G [label=7]
-	F -- G [label=5]
-	G -- H [label=6]
+	A -- C [label=3]
+	B -- C [label=3]
+	B -- D [label=4]
 }
